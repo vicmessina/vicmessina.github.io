@@ -66,6 +66,13 @@ article h2 {
     margin-bottom: 4px;
 }
 
+aside {
+    background-color: #000;
+    float: right;
+    width: 50%;
+    
+}
+
 footer {
     font-size: 12px;
     padding: 0 10px 0 10px;
