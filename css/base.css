@@ -69,11 +69,13 @@ article h2 {
 aside {
     background-color: #000;
     float: right;
-    width: 50%;
+    margin: 0 0 10px 5%;
+    width: 45%;
     
 }
 
 footer {
+    clear: right;
     font-size: 12px;
     padding: 0 10px 0 10px;
 }
