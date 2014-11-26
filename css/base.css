@@ -10,23 +10,24 @@ body {
     line-height: 24px;
 }
 
-p {
+.p {
     margin-bottom: 16px;
     margin-left: 10px;
 }
 
-header {
+.header {
     background-color: #ffffff;
     color: #000000;
     height: 220px;
 }
 
 header h1 {
+    display: inline;
     text-align: right;
     font-family: "Geneva", arial, helvetica;
     font-size: 80px;
     font-weight: 700px;
-    padding-top: 40px;
+    padding-top: 90px;
     padding-left: 10px;
     line-height: 80px;
 }
@@ -34,12 +35,14 @@ header h1 {
 header img {
     float: left;
     padding-top: none;
+    display: inline;
 }
 
 nav {
     text-align: center;
     font-size: 22px;
     padding: 10px;
+    padding-bottom: 65px;
 }
 
 nav a {
@@ -60,12 +63,11 @@ header a:visited {}
 
 header a:focus
 
-aside img {
-    align-items:center;
+.aside img {
+    align: center;
 }
 
 aside {
-    float: left;
     padding-left: 10px;
 }
 
@@ -107,6 +109,11 @@ footer {
     header h1 {
         line-height: 70px;
         text-align: center;
+    }
+    
+    header img {
+        width: 30%;
+        height: auto;
     }
     
     nav {
