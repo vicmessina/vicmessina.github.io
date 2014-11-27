@@ -32,11 +32,14 @@ header h1 {
     line-height: 80px;
 }
 
+
+
 header img {
     float: left;
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 10px;
     display: inline;
+    
 }
 
 nav {
@@ -64,10 +67,23 @@ header a:visited {}
 
 header a:focus
 
-#index img {
-    width: 100%;
+#portfolio section p, ul {
+    display: inline;
+    text-align: right;
 }
 
+#portfolio section {
+    margin: 0px 21px 0px 10px;
+}
+
+#portfolio article {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#portfolio h2 {
+    text-align: right;   
+}
 
 article {
     float: right;
@@ -92,8 +108,8 @@ form {
     padding: 10px;
 }
 
-#contact.article {
-
+#contact form {
+    text-align: center;
 }
 
 footer {
