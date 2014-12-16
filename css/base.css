@@ -43,6 +43,7 @@ header img {
     
 }
 
+
 nav {
     text-align: center;
     font-size: 22px;
@@ -116,8 +117,38 @@ header a {
     clear: both;
 }
 
+
+#portfolio section a:link {
+    color: #0099ff;
+}
+
+#portfolio section a:visited {
+    color: #009999;
+}
+
+#portfolio h2 {
+    background-color: #808080;
+    color: #ffffff;
+    padding: 6px;
+}
+
+#about h3 {
+    background-color: #808080;
+    color: #ffffff;
+    padding: 6px;
+}
+
+#about p a:link {
+    color: #0099ff;
+}
+
+#about p a:visited {
+    color: #009999;
+}
+
+
 .one-third img {
-    padding: 60px 0 0 40px;
+    padding: 70px 0 0 40px;
 }
 
 .one-third {
@@ -133,7 +164,6 @@ header a {
 .two-thirds h2, .two-thirds p, .two-thirds ul {
     text-align: left;
 }
-
 
 
 article {
@@ -161,9 +191,17 @@ article h2 {
 }
 
 form {
-    text-align: left;
-    font-size: 20px;
+    font-size: 16px;
     padding: 10px;
+    line-height: 35px;
+}
+
+#contact div a:link {
+    color: #0099ff;
+}
+
+#contact div a:visited {
+    color: #009999;
 }
 
 footer {
@@ -174,6 +212,7 @@ footer {
     color: #ffffff;
 }
 
+
 @media screen and (max-width: 600px) {
 
     
@@ -182,6 +221,7 @@ footer {
         font-size: 30px;
         text-align: center;
     }
+    
     
     header h1  {
         font-size: 40px;
@@ -211,7 +251,7 @@ footer {
         width: 130%;
 }
     
-    #content {
+    #about {
         width: 90%;
         clear: left;
     }
