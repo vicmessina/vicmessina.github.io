@@ -146,6 +146,11 @@ header a {
     color: #009999;
 }
 
+.one-half {
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+}
 
 .one-third img {
     padding: 70px 0 0 40px;
