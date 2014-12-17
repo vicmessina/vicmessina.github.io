@@ -177,15 +177,11 @@ header a {
 
 
 article {
-    float: right;
     padding: 0 10px 0 10px;
 }
 
 #about article {
-    text-align: left;
     padding-top: 10px;
-/* not sure why this text wouldn't align left on my page */
- 
 }
 
 article h1 {
