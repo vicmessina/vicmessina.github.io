@@ -255,8 +255,13 @@ footer {
     
     .one-third img {
         width: 130%;
-}
+    }
     
+    .one-half {
+        margin: 0 5%;
+        width: 90%;
+    }
+
 
     #about article img {
         width: 100%;
