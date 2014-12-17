@@ -35,6 +35,11 @@ header h1 {
     
 }
 
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
 header img {
     float: left;
     padding-top: none;
