@@ -257,9 +257,9 @@ footer {
         width: 130%;
 }
     
-    #about {
-        width: 90%;
-        clear: left;
+
+    #about article img {
+        width: 100%;
     }
     
     
