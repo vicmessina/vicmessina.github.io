@@ -35,6 +35,11 @@ header h1 {
     
 }
 
+.wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
 header img {
     float: left;
     padding-top: none;
@@ -70,7 +75,7 @@ nav a:hover {
     text-decoration: underline;
 }
 
-#index h1, #index h2 {
+#index h2 {
     line-height: 40px;
 }
 
@@ -146,6 +151,11 @@ header a {
     color: #009999;
 }
 
+.one-half {
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+}
 
 .one-third img {
     padding: 70px 0 0 40px;
@@ -167,15 +177,11 @@ header a {
 
 
 article {
-    float: right;
     padding: 0 10px 0 10px;
 }
 
 #about article {
-    text-align: left;
     padding-top: 10px;
-/* not sure why this text wouldn't align left on my page */
- 
 }
 
 article h1 {
@@ -205,7 +211,7 @@ form {
 }
 
 footer {
-    clear: right;
+    clear: both;
     font-size: 12px;
     padding: 0 10px 0 10px;
     background-color: #6f6f6f;
@@ -249,11 +255,16 @@ footer {
     
     .one-third img {
         width: 130%;
-}
+    }
     
-    #about {
+    .one-half {
+        margin: 0 5%;
         width: 90%;
-        clear: left;
+    }
+
+
+    #about article img {
+        width: 100%;
     }
     
     
