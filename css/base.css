@@ -22,7 +22,6 @@ header {
 
 header h1 {
     display: inline;
-    text-align: right;
     font-family: "Geneva", arial, helvetica;
     font-size: 80px;
     padding-left: 35px;
@@ -44,16 +43,14 @@ header img {
     float: left;
     padding-top: none;
     padding-left: 10px;
-    display: inline;
-    
+    display: inline;    
 }
 
 
 nav {
-    text-align: center;
     font-size: 22px;
-    padding: 10px;
-    padding-bottom: 55px;
+    padding-left: 5px;
+    padding-bottom: 50px;
     margin-top: 20px;
 }
 
@@ -151,10 +148,19 @@ header a {
     color: #009999;
 }
 
+#about article section {
+    text-align: center;
+}
+
 .one-half {
     float: left;
     width: 40%;
-    margin-right: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.one-half p {
+    margin-bottom: 6px;
 }
 
 .one-third img {
@@ -169,11 +175,9 @@ header a {
 
 .two-thirds {
     width: 60%;
+    float: right;
 }
 
-.one-half first, .one-half {
-    width: 50%;
-}
 
 .two-thirds h2, .two-thirds p, .two-thirds ul {
     text-align: left;
@@ -203,6 +207,7 @@ article h2 {
 form {
     font-size: 16px;
     padding: 10px;
+    margin-top: 0px;
     line-height: 35px;
 }
 
@@ -212,6 +217,10 @@ form {
 
 #contact div a:visited {
     color: #009999;
+}
+
+.one-half h3 {
+    margin-bottom: 10px;
 }
 
 footer {
@@ -233,32 +242,40 @@ footer {
     }
     
     
-    header h1  {
-        font-size: 40px;
+    header {
+        font-size: 70px;
         text-align: center;
-        margin-top: none;
-        margin: 0;
-        padding: 0;
+        padding: 0px;
+        margin-left: 0px;
     }
     
     header img {
-        width: 30%;
-        height: auto;
+        display: none;
     }
     
     nav {
         width: 90%;
+        margin-top: 10px;
+        margin-bottom: 25px;
+        padding-bottom: 5px;
     }
     
     nav a {
-        display: block;
-        width: 100%;
+        display: inline;
         clear: both;
-        float: left;
+
     }
     
     .one-third img {
         width: 130%;
+    }
+    
+    #about article h1 {
+        font-size: 30px;
+    }
+    
+    #about article {
+        padding-top: 0px;
     }
     
     .one-half {
