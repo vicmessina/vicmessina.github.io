@@ -161,6 +161,10 @@ header a {
     width: 60%;
 }
 
+.one-half first, .one-half {
+    width: 50%;
+}
+
 .two-thirds h2, .two-thirds p, .two-thirds ul {
     text-align: left;
 }
